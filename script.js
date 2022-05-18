@@ -1,5 +1,4 @@
-// 동영상 강의에 나온 코드를 그대로 실습하세요
-// TODO : DOM으로부터 필요한 엘리먼트를 불러오세요.
+// DOM으로부터 필요한 엘리먼트를 불러오세요.
 let username = document.querySelector("#username");
 console.log("username 입력이 가능함");
 
@@ -38,7 +37,6 @@ let miss = document.querySelector(".mismatch-message");
 let match = document.querySelector(".match-message");
 
 function isMatch(password1, password2) {
-  // TODO : 동영상 강의를 보고 이 함수를 완성하세요.
   return password1 === password2;
 }
 
@@ -77,7 +75,7 @@ username.onclick = function () {
     console.log("아이디 유효성 검사 다시!");
   }
 };
-
+햐;
 //이벤트 핸들러 비밀번호 유효성 검사 만들기
 let valid = document.querySelector(".valid-message");
 let invalid = document.querySelector(".invalid-message");
